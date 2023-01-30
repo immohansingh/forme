@@ -1,0 +1,34 @@
+*xampp
+-xampp is used for local server and running this on browser .
+-To run this code we want to install xampp server and than after the installing this you want to copy and paste all this files to the  
+ 'htdocs' folder.
+-after the installation of the xampp server we want to open xampp desketop application and than start apache and MYSQL option in the
+ application.
+-after this to run the code file we first give path to the browser this 'http://localhost/login.php'.
+
+*login.php file
+-First I created the login page. In the login page using HTML and CSS for connecting this to database I used the php for datastoring and 
+ the login acitivites and saving the password and all detail.
+-If the you have first time on the login page than you want to register the form Using 'Register' button .after clicking on the button you
+ will redirect to the form for registeration file 'form.php' .
+-IN login form you want to fill your email ID and the password you fill in the registration form.
+-when you fill the form this data will go to the php variable and php code first check this email is present in the dabase or not . if 
+ present than it will check also password in the dabase if both variable match with the database than you will redirect to the page ON
+ 'login1.php' text that "LOGIN SUCCESSFUL" .If you Entered the wrong password than it will display on 'login1.php' text that "INVALID EMAIL
+  OR PASSWORD".
+
+*Form.php file 
+-IF You on first time on 'login.php' than go to the Register button and than it will open registration form 'form.php'.
+ In registration form please , I created Using HTML code .first we created all this using <form> tag. In the <form> tag Using the <input>	
+  tag I created all email box, password and first name and the last name .for the gender I used <input> tag and than type 'radio' .
+ after that I created the country box using <select> and the <option> tag.I created terms and condition using the <input> tage and the
+ type checkbox .
+-after the filling form the button 'register' is created for submittion of the form using the <input> tag and type "submit" for the submit. 
+-after the filling the form the data is going to the php code and php code run the query and insert to the database.
+*connectdb.php.
+-It is the file that is used for connect to the database to the html page php code.
+-This file is link with the page by using '<?php include("connectdb.php") ;  ?>' this code.
+ 
+
+
+ 
